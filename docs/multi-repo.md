@@ -97,6 +97,10 @@ Follow the [origin skill](https://cursor.com) / `origin repo create <name>` per 
 
 This workspace can remain the **integration monorepo** for day-to-day work while you publish app repos from `bootstrap-repos.sh`, or you can move entirely to split clones once remotes exist.
 
+## Vercel (test + production)
+
+See **[deploy-vercel.md](./deploy-vercel.md)** — three Vercel projects (backend, web, admin), Preview = test, Production = `main`.
+
 ## Checklist before first push
 
 - [ ] `.env` not staged; `.env.example` updated
